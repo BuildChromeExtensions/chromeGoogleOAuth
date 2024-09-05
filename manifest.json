@@ -1,0 +1,20 @@
+{
+    "name": "Oauth Extensions",
+    "description": "Test Loging flow with this extensions",
+    "version": "1.0.0.0",
+    "manifest_version": 3,
+    "oauth2": {
+        "client_id": "***************.apps.googleusercontent.com",
+        "scopes": [
+            "profile",
+            "email"
+        ]
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "identity",
+        "identity.email"
+    ]
+}
